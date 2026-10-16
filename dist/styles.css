@@ -45,7 +45,7 @@ p { text-wrap: pretty; }
 .entrance-copy .eyebrow { margin-bottom: 8px; font-size: 10px; }
 .entrance-copy h1 { font-size: clamp(36px, 5vw, 51px); color: var(--wine); margin-bottom: 10px; }
 .entrance-copy h1 span { font-style: italic; color: var(--gold); }
-.entrance-date { margin-bottom: 20px; font-size: 18px; }
+.entrance-date { margin-bottom: 20px; font-size: 18px; font-weight: 600; }
 .opening-skip { position: absolute; right: 20px; top: max(20px, env(safe-area-inset-top)); background: var(--paper); padding: 10px 16px; font-size: 16px; }
 .entrance.opening .entrance-copy { opacity: 0; pointer-events: none; }
 .entrance.fading-out { opacity: 0; pointer-events: none; }
@@ -79,7 +79,7 @@ nav a:hover, nav a[aria-current] { color: var(--wine); text-decoration: underlin
 .scratch-instruction { font-size: 18px; }
 .scratch-card { position: relative; width: min(100%, 580px); aspect-ratio: 2126 / 740; margin: 20px auto 12px; }
 .scratch-card > img { position: absolute; inset: 0; width: 100%; height: 100%; }
-.date-value { position: absolute; inset: 32% 8% 14%; display: flex; align-items: center; justify-content: center; font-size: clamp(21px, 3vw, 36px); color: var(--wine); font-variant-numeric: tabular-nums; }
+.date-value { position: absolute; inset: 32% 8% 14%; display: flex; align-items: center; justify-content: center; font-size: clamp(21px, 3vw, 36px); font-weight: 700; color: var(--wine); font-variant-numeric: tabular-nums; letter-spacing: .02em; }
 #scratch { position: absolute; left: 12%; top: 36%; width: 76%; height: 45%; touch-action: none; cursor: crosshair; border-radius: 2px; transition: opacity .5s; }
 .scratch-card.revealed #scratch { opacity: 0; pointer-events: none; }
 .date-note { font-size: 17px; margin: 22px 0 4px; }
@@ -163,6 +163,7 @@ nav a:hover, nav a[aria-current] { color: var(--wine); text-decoration: underlin
 footer { border-top: 1px solid var(--line); text-align: center; padding: 70px 20px 55px; }
 .footer-names { font-size: clamp(40px, 6vw, 80px); color: var(--wine); line-height: 1.1; margin-bottom: 20px; }
 .footer-names em { color: var(--gold); }
+footer p[data-copy="weddingDate"] { font-weight: 600; }
 footer .quiet-button { display: block; margin: 20px auto 0; }
 #petals { position: fixed; inset: 0; pointer-events: none; z-index: 25; overflow: hidden; }
 .petal { position: absolute; top: -45px; width: var(--size); height: calc(var(--size) * 1.45); border-radius: 90% 12% 80% 20%; background: radial-gradient(ellipse at 25% 20%, #fbd1dc, #df7495 55%, #b94770); box-shadow: inset 1px 1px 3px #ffebee88; animation: petal-fall var(--duration) linear var(--delay) forwards; will-change: transform; }

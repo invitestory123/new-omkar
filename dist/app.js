@@ -342,7 +342,7 @@ document.addEventListener('visibilitychange', () => {
 });
 
 // Static copy is generated from this same file by scripts/build.mjs.
-fetch('invitation.json?v=b4813dbc5dbe').then(response => {
+fetch('invitation.json?v=81575ef89907').then(response => {
   if (!response.ok) throw new Error('Configuration unavailable');
   return response.json();
 }).then(config => {

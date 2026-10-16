@@ -11,14 +11,16 @@ Source: `.private/whatsapp/_chat.txt`, with the four annotated reference images 
 | Fuller flower shower | Recurring, bounded petal animation after opening and on date reveal. |
 | More motion on ceremony and reception pages, including lights | Lamp glows, twinkles, lake shimmer and animated reception fairy lights. |
 | Shweta's name overlaps the floral frame | Explicitly positioned name block inside the frame; type scales with artwork width. |
-| Names in Hindi/Devanagari on the blessing page | ओंकार and श्वेता, with Marathi conjunction आणि, matching the existing शुभ विवाह treatment. |
-| Mahadev → Mahadeo | Mahadeo Dagade in HTML and configuration. |
+| Names in Devanagari on the blessing page | ओमकार and श्वेता, with Marathi conjunction आणि, matching the card artwork. |
+| Mahadeo → Mahadev | Mahadev Dagade in HTML and configuration to match the card artwork (श्वेता महादेव दगडे). |
 | Vidhi begins 3:15 onwards | 3:15 PM onwards in HTML, configuration and calendar export. |
 | Ladies' wedding theme: only Paithani saree | Single Paithani feature showing the first original illustration; other wedding saree types removed from guest-facing content. Reception outfits retained. |
 | Venue directions | Maps directions to the address supplied in the chat. |
 | Preferred music | Jashn-e-Bahaaraa instrumental audio added to assets/wedding-music.mp3 and configured in invitation.json. |
 | The update must actually appear | Repeatable source-to-dist build, versioned code/configuration and HTML cache headers. |
+| Bold date portion | Enhanced date prominence with bold weights on entrance and scratch card plaque. |
+| Mangalashtaka time | Changed to 5:48 PM in invitation.json, HTML, dist, and calendar export (.ics). |
 
-The 2026 year, Mangalashtaka at 5:40 PM, and Dinner & Reception at 8:30 PM were retained from the supplied project. No further time changes were specified in the export.
+The 2026 year, Mangalashtaka at 5:48 PM, and Dinner & Reception at 8:30 PM are configured in the project.
 
 This work prepares the local site and deployment output. It does not publish to the live URL or message the client.
