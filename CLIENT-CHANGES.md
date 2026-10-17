@@ -21,6 +21,6 @@ Source: `.private/whatsapp/_chat.txt`, with the four annotated reference images 
 | Bold date portion | Enhanced date prominence with bold weights on entrance and scratch card plaque. |
 | Mangalashtaka time | Changed to 5:48 PM in invitation.json, HTML, dist, and calendar export (.ics). |
 
-The 2026 year, Mangalashtaka at 5:48 PM, and Dinner & Reception at 8:30 PM are configured in the project.
+The 2026 year, Mangalashtaka at 5:48 PM, and Dinner & Reception at 8:00 PM are configured in the project.
 
 This work prepares the local site and deployment output. It does not publish to the live URL or message the client.
